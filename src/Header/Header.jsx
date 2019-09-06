@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { coreLibrary, widgetModule } from 'kambi-widget-core-library';
+import { coreLibrary, widgetModule } from 'kambi-wc-widget-core-library';
 import styles from './Header.scss';
 
 /**

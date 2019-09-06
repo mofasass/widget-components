@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import styles from './BlendedBackground.scss'
-import { coreLibrary } from 'kambi-widget-core-library'
+import { coreLibrary } from 'kambi-wc-widget-core-library'
 
 
 /**

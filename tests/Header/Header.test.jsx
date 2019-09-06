@@ -2,12 +2,12 @@
 import React, { Children } from 'react';
 import Header from '../../src/Header/Header';
 import { mount } from 'enzyme';
-import { coreLibrary, widgetModule } from 'kambi-widget-core-library';
+import { coreLibrary, widgetModule } from 'kambi-wc-widget-core-library';
 import ReactShallowRenderer from 'react-test-renderer/shallow';
 
 let renderer;
 
-jest.mock('kambi-widget-core-library', () => ({
+jest.mock('kambi-wc-widget-core-library', () => ({
    widgetModule: {
       setWidgetHeight: jest.fn(),
       adaptWidgetHeight: jest.fn()

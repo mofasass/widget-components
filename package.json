@@ -1,6 +1,6 @@
 {
-  "name": "kambi-widget-components",
-  "version": "1.21.13",
+  "name": "kambi-wc-widget-components",
+  "version": "0.0.3",
   "description": "A collection of reusable components written with React framework",
   "main": "src/components.js",
   "scripts": {
@@ -31,12 +31,13 @@
     "react-addons-create-fragment": "^15.6.0"
   },
   "peerDependencies": {
-    "kambi-widget-core-library": "x",
+    "kambi-wc-widget-core-library": "x",
     "react": "x",
     "react-dom": "x",
     "prop-types": "x"
   },
   "devDependencies": {
+    "compass-mixins": "^0.12.10",
     "eslint": "^3.8.1",
     "eslint-config-airbnb": "^12.0.0",
     "eslint-loader": "^1.5.0",
