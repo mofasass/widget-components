@@ -3,7 +3,7 @@ import React, { Children } from 'react';
 import OutcomeButton from '../../src/OutcomeButton/OutcomeButton';
 import ReactShallowRenderer from 'react-test-renderer/shallow';
 import { mount, shallow } from 'enzyme';
-import { coreLibrary, eventsModule, widgetModule, utilModule } from 'kambi-widget-core-library';
+import { coreLibrary, eventsModule, widgetModule, utilModule } from 'kambi-wc-widget-core-library';
 
 let renderer;
 
@@ -24,7 +24,7 @@ const event = {
    }]
 };
 
-jest.mock('kambi-widget-core-library', () => ({
+jest.mock('kambi-wc-widget-core-library', () => ({
    eventsModule: {
       subscribe: jest.fn((event, handler) => mockEventHandlers[event] = handler),
       unsubscribe: jest.fn()

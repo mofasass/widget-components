@@ -1,5 +1,5 @@
 @import '~compass-mixins';
-@import '~kambi-widget-core-library/src/scss/core.scss';
+@import '~kambi-wc-widget-core-library/src/scss/core.scss';
 
 // Our webpack configuration uses autoprefixer (https://github.com/postcss/autoprefixer) so we don't need to worry about vendor specific prefixes
 .glomo-carousel {

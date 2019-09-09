@@ -5,7 +5,7 @@ import {
   widgetModule,
   utilModule,
   updatesModule,
-} from 'kambi-widget-core-library'
+} from 'kambi-wc-widget-core-library'
 import OutcomeButtonUI from './OutcomeButtonUI'
 
 /*

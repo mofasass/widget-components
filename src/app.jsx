@@ -5,7 +5,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import ReactDOM from 'react-dom'
-import { coreLibrary } from 'kambi-widget-core-library'
+import { coreLibrary } from 'kambi-wc-widget-core-library'
 import reactElementToJSXString from 'react-element-to-jsx-string'
 import {
   Header,
@@ -17,8 +17,6 @@ import {
   Carousel,
   BlendedBackground,
 } from './components'
-
-import styles from './app.scss'
 
 const TestContainer = ({ description, element }) => {
   const elementString = reactElementToJSXString(element, {
